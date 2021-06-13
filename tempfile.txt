@@ -1,0 +1,43 @@
+
+https://www.tensorflow.org/text/guide/word_embeddings
+https://www.tensorflow.org/text/guide/word_embeddings
+http://ai.stanford.edu/~amaas/data/sentiment/
+
+https://jupyter.org/install
+https://www.python.org/downloads/
+
+https://www.google.com/search?q=installing+python+amazon+workspace&rlz=1C1YTUH_enUS956&oq=installing+py&aqs=chrome.0.69i59j0i67i433j69i57j0i20i263j0j0i67j0j69i60.2360j0j4&sourceid=chrome&ie=UTF-8
+https://github.com/cwinsor/python_vanilla
+https://sites.google.com/site/cwinsorprivate/home/blog_powershell
+https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-PowerShell
+
+http://projector.tensorflow.org/
+
+
+
+(venv) PS D:\Users\CHRIS\Documents\code_embeddings_tensorflow> history
+
+  Id CommandLine
+  -- -----------
+   1 cd .\Documents\
+   2 cd .\code_embeddings_tensorflow\
+   3 dir
+   4 dr
+   5 dir
+   6 rm .\setup_win_2.ps1
+   7 dir
+   8 .\setup_win.ps1
+   9 jupyter notebook
+
+
+(venv) PS D:\Users\CHRIS\Documents\code_embeddings_tensorflow> history
+
+  Id CommandLine
+  -- -----------
+   1 cd .\Documents\
+   2 cd .\code_embeddings_tensorflow\
+   3 dir
+   4 pip install tensorflow
+   5 .\setup_win.ps1
+   6 which python
+
