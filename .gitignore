@@ -4,6 +4,8 @@ __pycache__/
 *$py.class
 
 logs
+*.gz
+aclImdb/
 
 # C extensions
 *.so
