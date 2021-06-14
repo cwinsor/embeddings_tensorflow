@@ -3,12 +3,9 @@
 # if venv does not exist - create it
 
 if (-NOT (Test-Path '.\venv\Scripts\activate' -PathType Leaf)) {
-
-    " "
     "did not find venv\Scripts\activate - creating now..."
 
     # confirm at least we have python with pip
-    python --version
     python -m pip --version
 
     # create empty venv
@@ -32,14 +29,7 @@ $Env:PYTHONPATH=$ENV:PYTHONPATH + $PSScriptRoot
 $Env:PYTHONPATH=$ENV:PYTHONPATH + ';'
 
 $Env:PYTHONPATH=$ENV:PYTHONPATH + $PSScriptRoot
-$Env:PYTHONPATH=$ENV:PYTHONPATH + '/lib;'
-
-
-#################################################
-# to start vs-code
-" "
-"to start visual studio code:"
-"code -n ."
+$Env:PYTHONPATH=$ENV:PYTHONPATH + '/whatever;'
 
 #################################################
 # to start jupyter notebook

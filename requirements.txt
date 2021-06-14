@@ -1,5 +1,2 @@
 jupyter
 tensorflow
-
-#numpy
-#pandas
